@@ -68,12 +68,12 @@ if ($conn->connect_error) { die("Conexión fallida: " . $conn->connect_error); }
                   <div class="card-body text-center">
                     <h5 class="card-title">'.$p['nombre'].'</h5>
                     <p class="card-text">$'.$p['precio'].'</p>
-                    <a href="pedido.php?producto='.urlencode($p['nombre']).'" class="btn btn-primary">Comprar</a>
+                    <a href="pedido.php?producto='.urlencode($p['nombre']).'" class="btn btn-primary" >Comprar</a>
                   </div>
                 </div>
               </div>';
       }
-      ?>
+      ?> 
     </div>
   </div>
 </section>
